@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://xtuvrpddmaj2"]
+
+[ext_resource type="Script" path="res://Main.cs" id="1_ht5qy"]
+[ext_resource type="PackedScene" uid="uid://cpmafgjg232p7" path="res://Entities/player.tscn" id="2_2swcv"]
+
+[node name="Main" type="Node2D"]
+scale = Vector2(0.982567, 0.861599)
+script = ExtResource("1_ht5qy")
+
+[node name="Player" parent="." instance=ExtResource("2_2swcv")]
+position = Vector2(493, 302)
